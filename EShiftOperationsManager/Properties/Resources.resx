@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ACCEPTBUTTONICON2.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACCEPTBUTTONICON2.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REPORTSCRITERIAICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REPORTSCRITERIAICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T.Requesticon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T.Requesticon.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JOBICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JOBICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEWBUTTON.ICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEWBUTTON.ICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRODUCTIMAGEICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRODUCTIMAGEICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DELETEBUTTONICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DELETEBUTTONICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CUSTOMERMANGEMENTICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CUSTOMERMANGEMENTICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADDBUTTONICON2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADDBUTTONICON.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TRANSPORTJOBSICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TRANSPORTJOBSICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINDETAILICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINDETAILICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PENDINGICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PENDINGICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINNEWICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINNEWICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEWTOTALCUSTOMERSICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEWTOTALCUSTOMERSICON.png1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASSIGNUNITICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASSIGNUNITICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T.Requesticon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T.Requesticon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Registoricon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Registoricon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASSIGNUNITICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASSIGNUNITICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TRANSPORTUNITS.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TRANSPORTUNITS.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sveicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sveicon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SERCHICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SERCHICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXPORTBUTTONICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EXPORTBUTTONICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QUICKAction.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QUICKAction.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARCHARTICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARCHARTICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Companyjobsicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Companyjobsicon.png1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darkblueline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Darkblueline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOTALCUSTOMERS.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOTALCUSTOMERS.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPDATEBUTTOICON3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UPDATEBUTTOICON.png3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Customer.icon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customer.icon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map.icon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Map.icon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROFILEICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROFILEICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegisterNew.icon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RegisterNew.icon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROFILEICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROFILEICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TRANSPORTIcon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TRANSPORTIcon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vIEWDETAILSICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vIEWDETAILSICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRODUCTMANGEMENT.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRODUCTMANGEMENT.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blueArrowicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blueArrowicon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Register.icon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Register.icon.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_truck.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_truck.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROFILEICON2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROFILEICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PENDINGICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PENDINGICON.png1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REFRESHICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REFRESHICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOTALJOBSNEWICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOTALJOBSNEWICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Approvedjobicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Approvedjobicon.png1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reportsicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reportsicon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPDATEBUTTOICON4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UPDATEBUTTOICON.png4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mobile.icon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mobile.icon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DELETEBUTTONICON2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DELETEBUTTONICON.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOTALJOBSICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOTALJOBSICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHaven_Moving_Poster.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueHaven_Moving_Poster.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JOBMANGEMENT.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JOBMANGEMENT.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emailicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Emailicon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPDATEBUTTOICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UPDATEBUTTOICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WELCOMEIMAGE2.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WELCOMEIMAGE2.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_icon (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_icon (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRINTBUTTONICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRINTBUTTONICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANCELREQUESTICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANCELREQUESTICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CREATEREQUESTNEWICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CREATEREQUESTNEWICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADDBUTTONICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADDBUTTONICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Approvedjobicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Approvedjobicon.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLEARICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLEARICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLEARICON2.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLEARICON2.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CustomerIcon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CustomerIcon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MYPAYMENTSICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MYPAYMENTSICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeadIcon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeadIcon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picPasswordIcon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picPasswordIcon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DECLINEBUTTONICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DECLINEBUTTONICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NAVYBLUEARROWICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NAVYBLUEARROWICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SERCHICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SERCHICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DELETEBUTTONICON3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DELETEBUTTONICON.png3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JOBICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JOBICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPDATEBUTTOICON2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UPDATEBUTTOICON.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logouticon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logouticon.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DECLINEBUTTONICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DECLINEBUTTONICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINNEWICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINNEWICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINMANGEMENT.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINMANGEMENT.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINDETAILICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINDETAILICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DELETEBUTTONICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DELETEBUTTONICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEWTOTALCUSTOMERSICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEWTOTALCUSTOMERSICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picUsernameIcon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picUsernameIcon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPDATEBUTTOICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UPDATEBUTTOICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NAVYBLUEARROWICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NAVYBLUEARROWICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADDBUTTONICON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADDBUTTONICON.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROFILEICON3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PROFILEICON.png1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picOnTimeDeliveryIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picOnTimeDeliveryIcon.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TRANSPORTREQUESTICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TRANSPORTREQUESTICON.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMINICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMINICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Companyjobsicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Companyjobsicon.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picOnTimeDeliveryIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picOnTimeDeliveryIcon1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Safe_Relocation_Poster.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Safe_Relocation_Poster.png.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Productsicon.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Productsicon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JOBSOVERVIEICON.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JOBSOVERVIEICON.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

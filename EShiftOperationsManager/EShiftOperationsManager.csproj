@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B36BF99A-E8C1-46E2-9F20-BA03B662384B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EShiftOperationsManager</RootNamespace>
+    <AssemblyName>EShiftOperationsManager</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminDashboard.Designer.cs">
+      <DependentUpon>FrmAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminManagement.Designer.cs">
+      <DependentUpon>FrmAdminManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomerDashboard.Designer.cs">
+      <DependentUpon>FrmCustomerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomerManagement.Designer.cs">
+      <DependentUpon>FrmCustomerManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomerRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomerRegistration.Designer.cs">
+      <DependentUpon>FrmCustomerRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJobManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobManagement.Designer.cs">
+      <DependentUpon>FrmJobManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMyTransportJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMyTransportJobs.Designer.cs">
+      <DependentUpon>FrmMyTransportJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductManagement.Designer.cs">
+      <DependentUpon>FrmProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReports.Designer.cs">
+      <DependentUpon>FrmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransportUnitManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransportUnitManagement.Designer.cs">
+      <DependentUpon>FrmTransportUnitManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestTransportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestTransportForm.Designer.cs">
+      <DependentUpon>RequestTransportForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminDashboard.resx">
+      <DependentUpon>FrmAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminManagement.resx">
+      <DependentUpon>FrmAdminManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomerDashboard.resx">
+      <DependentUpon>FrmCustomerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomerManagement.resx">
+      <DependentUpon>FrmCustomerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomerRegistration.resx">
+      <DependentUpon>FrmCustomerRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJobManagement.resx">
+      <DependentUpon>FrmJobManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMyTransportJobs.resx">
+      <DependentUpon>FrmMyTransportJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductManagement.resx">
+      <DependentUpon>FrmProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReports.resx">
+      <DependentUpon>FrmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransportUnitManagement.resx">
+      <DependentUpon>FrmTransportUnitManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RequestTransportForm.resx">
+      <DependentUpon>RequestTransportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picOnTimeDeliveryIcon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darkblueline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picUsernameIcon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picPasswordIcon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registoricon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Register.icon.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterNew.icon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEWBUTTON.ICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emailicon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile.icon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picOnTimeDeliveryIcon1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.icon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CustomerIcon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueArrowicon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeadIcon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sveicon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLEARICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLEARICON2.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_truck.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customer.icon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOBICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Productsicon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRANSPORTIcon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reportsicon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_icon %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Safe_Relocation_Poster.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueHaven_Moving_Poster.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BARCHARTICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOBMANGEMENT.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRANSPORTUNITS.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINMANGEMENT.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRODUCTMANGEMENT.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CUSTOMERMANGEMENTICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUICKAction.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T.Requesticon.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NAVYBLUEARROWICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINNEWICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOTALCUSTOMERS.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOTALJOBSICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOTALJOBSNEWICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PENDINGICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approvedjobicon.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Companyjobsicon.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEWTOTALCUSTOMERSICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CREATEREQUESTNEWICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOBICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PROFILEICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PROFILEICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MYPAYMENTSICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEWTOTALCUSTOMERSICON.png1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PENDINGICON.png1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approvedjobicon.png1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Companyjobsicon.png1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRANSPORTREQUESTICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRANSPORTJOBSICON.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PROFILEICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PROFILEICON.png1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logouticon.png.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NAVYBLUEARROWICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T.Requesticon.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINNEWICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADDBUTTONICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vIEWDETAILSICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANCELREQUESTICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SERCHICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REFRESHICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WELCOMEIMAGE2.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPDATEBUTTOICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELETEBUTTONICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SERCHICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINDETAILICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPDATEBUTTOICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELETEBUTTONICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCEPTBUTTONICON2.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DECLINEBUTTONICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPDATEBUTTOICON.png2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASSIGNUNITICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADDBUTTONICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPDATEBUTTOICON.png3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELETEBUTTONICON.png2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRODUCTIMAGEICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINDETAILICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADDBUTTONICON.png2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UPDATEBUTTOICON.png4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DECLINEBUTTONICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELETEBUTTONICON.png3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASSIGNUNITICON.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REPORTSCRITERIAICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PRINTBUTTONICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EXPORTBUTTONICON.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOBSOVERVIEICON.png.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
